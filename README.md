@@ -1,8 +1,8 @@
 # EFarm e-commerce website
 ## An Alx group project
 To obtain a local copy of the sample apps in this repository, use either of the following approaches:
-Fork this repository and clone it to your local system.
-Select the Code button. Select Download ZIP to save the repository locally. Extract the saved Zip archive (.zip) to access the sample apps.
+1. Fork this repository and clone it to your local system.
+2. Select the Code button. Select Download ZIP to save the repository locally. Extract the saved Zip archive (.zip) to access the sample apps.
 
 Blazor, a Microsoft framework for building interactive client-side web UI with .NET:
 •	Create rich interactive UIs using C# instead of JavaScript.
