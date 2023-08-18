@@ -1,0 +1,20 @@
+﻿@inject AppState appState
+@inject HttpClient client
+
+<NavLink class="btn btn-success btn-sm ml-3" href="/cart">
+    <i class="fa fa-shopping-cart"></i> Cart
+    <span class="badge badge-light">@Count</span>
+</NavLink>
+
+@code {
+    public int Count{ get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        appState.OnStateChange +=  GetCount;
+
+    }
+    async void GetCount()
+    {
+        Count=   client.GetFromJsonAsync<int>("basket/count").GetAwaiter().GetResult();
+    }
+}
