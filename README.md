@@ -12,7 +12,7 @@ Blazor, a Microsoft framework for building interactive client-side web UI with .
 •	Build hybrid desktop and mobile apps with .NET and Blazor.
 
 Using .NET for client-side web development offers the following advantages:
-•	Write code in C# instead of JavaScript.
+•	Write code in C# instead of JavaScript. 
 •	Leverage the existing .NET ecosystem of .NET libraries.
 •	Share app logic across server and client.
 •	Benefit from .NET's performance, reliability, and security.
